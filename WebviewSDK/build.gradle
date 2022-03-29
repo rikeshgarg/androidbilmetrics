@@ -72,7 +72,7 @@ publishing {
         bar(MavenPublication) {
             groupId 'com.example.webviewsdk'
             artifactId 'artifact'
-            version '1.0'
+            version '1.1'
             artifact sourceJar
             artifact("$buildDir/outputs/aar/WebviewSDK-debug.aar")
             pom.withXml {
@@ -110,7 +110,9 @@ publishing {
             url = uri("https://maven.pkg.github.com/rikeshgarg/androidbilmetrics")
             credentials {
                 username = "rikeshgarg" // Better if you use env variable
-                password = "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"
+                password = "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"
+                //password = "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"
+
             }
         }
     }
